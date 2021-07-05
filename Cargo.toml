@@ -1,5 +1,5 @@
 [package]
-name = "bitsi_joystick"
+name = "bitsi"
 version = "0.1.0"
 authors = ["Jeremy Schmidt <8888694+nocturnalBadger@users.noreply.github.com>"]
 edition = "2018"
