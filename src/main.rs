@@ -20,7 +20,7 @@ fn main() -> Result<(), String> {
     let updater_thread = thread::spawn(move || serial::position_updater(port_name2, pos_receiver));
 
 
-    let joystick_enabled = false;
+    let joystick_enabled = true;
     let mover_thread: thread::JoinHandle<()>;
     if joystick_enabled {
         mover_thread = thread::spawn(move || joystick::joystick_controller(pos_sender));
